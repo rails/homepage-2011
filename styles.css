@@ -1,0 +1,234 @@
+/* @override http://127.0.0.1:4000/styles.css */
+/* Site */
+body {
+	background: #fff url(images/topbluefade.gif) repeat-x center top;
+	color: #333;
+	font-family: Verdana, Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0px;
+	padding: 0px;
+}
+a img {
+	border: none;
+}
+img.bordered {
+	background-color: #fff;
+	border: 1px solid #CCC;
+	padding: 1px;
+}
+div.section {
+	margin: 0px auto;
+	overflow: hidden;
+	width: 700px;
+}
+div.section h2 {
+	color: #000;
+	float: left;
+	font-family: Georgia;
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 120%;
+	margin: 0px 0px 20px 0px;
+	text-align: right;
+	width: 200px;
+}
+div.section p {
+	font-family: Georgia;
+	font-size: 18px;
+	line-height: 140%;
+	margin: 0px 0px 25px 250px;
+	width: 450px;
+}
+div.section p.more {
+	font-size: 12px;
+	text-align: center;
+}
+#navigation {
+	color: #ccc;
+	width: 726px;
+	margin: 15px auto 10px;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+}
+#navigation a {
+	color: #000;
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: underline;
+}
+#navigation a:hover {
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+}
+#article h1 {
+	background: url(images/rails.png) no-repeat left top;
+	margin: 50px auto 32px;
+	overflow: hidden;
+	width: 706px;
+}
+#article h1 img {
+	display: block;
+	float: right;
+}
+#article p a {
+	color: #369;
+}
+#article p a:hover {
+	background-color: #F4DDA6;
+	text-decoration: none;
+}
+#footer {
+	color: #666;
+	font-size: 11px;
+	margin: 0px auto;
+	padding: 0px 0px 44px 0px;
+	text-align: center;
+	width: 726px;
+}
+#footer p {
+	margin: 12px 0px;
+}
+#footer p a {
+	color: #000;
+}
+#footer p a:hover {
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+#sponsored_by {
+	margin: 17px 0px !important;
+}
+#sponsored_by a:hover {
+	background-color: transparent !important;
+}
+#sponsored_by a img {
+	vertical-align: -7px;
+}
+
+/* Overview */
+#announce {
+	background-color: #981a21;
+	color: #fff;
+	font-size: 11px;
+	line-height: 13px;
+	margin: 0px;
+	padding: 5px 0px;
+	text-align: center;
+}
+#announce a {
+	color: #fff !important;
+	text-decoration: underline;
+}
+#announce a:hover {
+	background-color: #000 !important;
+	text-decoration: none;
+}
+#slivers {
+	background: url(images/herobackground.gif) repeat-x left top;
+	border-top: 2px solid #F6E69F;
+	border-bottom: 2px solid #F6E69F;
+	padding: 10px;
+}
+#slivers ul {
+	list-style: none;
+	margin: 0px auto;
+	padding: 0px;
+	overflow: hidden;
+	width: 792px;
+}
+#slivers ul li {
+	float: left;
+	margin: 0px 24px;
+	width: 150px;
+}
+#slivers ul li h2 {
+	color: #0e3062;
+	font-family: Geeorgia;
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: normal;
+	margin: 0px 0px 10px 0px;
+	text-align: center;
+}
+#slivers ul li img {
+	display: block;
+	margin: 0px auto 5px;
+}
+#slivers ul li p {
+	margin: 0px;
+	text-align: center;
+}
+#slivers ul li p a {
+	color: #000;
+	font-size: 10px;
+}
+#slivers ul li p a:hover {
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+}
+
+#slideshow {
+	font-family: Georgia;
+	font-size: 16px;
+	height: 130px;
+	line-height: 140%;
+	margin: 0px auto 30px;
+	text-align: center;
+	width: 700px;
+	padding: 30px 0px 0px 0px;
+	position: relative;
+}
+#slideshow blockquote {
+	margin: 0px;
+	position: absolute;
+	width: 700px;
+}
+#slideshow blockquote p {
+	margin: 0px;
+}
+#slideshow blockquote p cite {
+	font-size: 14px;
+	color: #a69e8a;
+}
+#slideshow p.more {
+	font-size: 14px;
+	font-style: italic;
+	margin: 0px;
+	position: absolute;
+	bottom: 0px;
+	width: 700px;
+}
+#slideshow p.more a {
+	color: #a69e8a;
+}
+#slideshow p.more a:hover {
+	background-color: #000;
+	text-decoration: none;
+}
+#used_by ul {
+	list-style: none;
+	margin: 0px 0px 0px 280px;
+	padding: 0px;
+	overflow: hidden;
+}
+#used_by ul li {
+	float: left;
+	margin: 0px 0px 20px 0px;
+	width: 209px;
+}
+#used_by ul li img {
+	display: block;
+	margin: 0px 0px 5px 0px;
+}
+#used_by ul li p {
+	font-size: 10px;
+	font-family: inherit;
+	margin: 0px;
+	width: auto;
+}
+
