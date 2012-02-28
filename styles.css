@@ -128,7 +128,7 @@ div.section img.biopic {
 	display: block;
 	float: right;
 }
-#article p a {
+#article p a, #article ol a {
 	color: #369;
 }
 #article p a:hover {
@@ -337,4 +337,27 @@ div.section img.biopic {
 #article.quotes blockquote p cite {
 	font-size: 14px;
 	color: #a69e8a;
+}
+/* Security Policy */
+#article.security {
+	margin: 50px auto 30px;
+	width: 700px;
+}
+#article.security h2 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: 40px 0px 15px 0px;
+}
+#article.security p, 
+#article.security ol {
+	font-family: Georgia;
+	font-size: 18px;
+	line-height: 140%;
+	margin: 0px 0px 25px 0px;
+}
+#article.security ol li {
+	margin: 0px 0px 10px 0px;
 }
