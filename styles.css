@@ -21,6 +21,9 @@ img.align-right {
 	float: right;
 	margin: 0px 0px 0px 10px;
 }
+span.highlight {
+	background-color: #ffc;
+}
 div.section {
 	margin: 0px auto;
 	overflow: hidden;
