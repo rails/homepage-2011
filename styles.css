@@ -88,6 +88,9 @@ div.section p.more {
 	color: #fff;
 	text-decoration: none;
 }
+#article {
+	padding: 0px 0px 20px 0px;
+}
 #article h1 {
 	background: url(images/rails.png) no-repeat left top;
 	margin: 50px auto 32px;
