@@ -313,4 +313,21 @@ div.section p.centered {
 #applications li p a:hover {
 	background-color: #f4dda6 !important;	
 }
-
+/* Quotes */
+#article.quotes blockquote {
+	font-family: Georgia;
+	font-size: 18px;
+	line-height: 140%;
+	margin: 0px auto 25px;
+	text-align: center;
+	width: 700px;
+	padding: 0px;
+	position: relative;
+}
+#article.quotes blockquote p {
+	margin: 0px;
+}
+#article.quotes blockquote p cite {
+	font-size: 14px;
+	color: #a69e8a;
+}
