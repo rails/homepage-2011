@@ -12,6 +12,23 @@ body {
 a img {
 	border: none;
 }
+a.nohover {
+	background-color: transparent !important;
+}
+a.align-right {
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+a.align-right img {
+	display: block;
+}
+a.align-center {
+	display: inline-block;
+	margin: 0px 5px;
+}
+a.align-center img {
+	display: block;
+}
 img.bordered {
 	background-color: #fff;
 	border: 1px solid #CCC;
@@ -67,6 +84,9 @@ div.section blockquote p {
 }
 div.section p.more {
 	font-size: 12px;
+	text-align: center;
+}
+div.section p.centered {
 	text-align: center;
 }
 #navigation {
