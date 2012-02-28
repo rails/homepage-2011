@@ -89,6 +89,13 @@ div.section p.more {
 div.section p.centered {
 	text-align: center;
 }
+div.section img.biopic {
+	background-color: #fff;
+	border: 2px solid #ccc;
+	padding: 2px;
+	float: left;
+	margin: 0px 0px 10px 40px;
+}
 #navigation {
 	color: #ccc;
 	width: 726px;
