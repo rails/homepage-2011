@@ -125,7 +125,7 @@ div.section p.centered {
 	color: #369;
 }
 #article p a:hover {
-	background-color: #F4DDA6;
+	background-color: #f4dda6;
 	text-decoration: none;
 }
 #footer {
@@ -278,5 +278,39 @@ div.section p.centered {
 	font-family: inherit;
 	margin: 0px;
 	width: auto;
+}
+/* Applications */
+#applications {
+	list-style: none;
+	margin: 0px auto;
+	padding: 0px 0px 0px 110px;
+	overflow: hidden;
+	width: 700px;
+}
+#applications li {
+	float: left;
+	width: 200px;
+	margin: 0px 0px 20px 0px;
+}
+#applications li a {
+	display: block;
+	margin: 0px 0px 5px 0px;
+	background-color: transparent !important;
+}
+#applications li a img {
+	background-color: #fff;
+	border: 1px solid #CCC;
+	padding: 1px;
+	display: block;
+}
+#applications li p {
+	font-size: 10px;
+	margin: 0px;
+}
+#applications li p a {
+	display: inline;
+}
+#applications li p a:hover {
+	background-color: #f4dda6 !important;	
 }
 
