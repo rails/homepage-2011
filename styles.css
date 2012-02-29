@@ -245,6 +245,16 @@ div.section ul.links li.rss {
 	width: 670px;
 	margin: 0px auto 25px;
 }
+#article p.missing {
+	color: #000;
+	font-family: Georgia;
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 120%;
+	margin: 0px auto;
+	text-align: center;
+	width: 700px;
+}
 #footer {
 	color: #666;
 	font-size: 11px;
