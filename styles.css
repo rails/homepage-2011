@@ -65,6 +65,16 @@ div.section h3 {
 	margin: 0px 0px 0px 250px;
 	line-height: 140%;
 }
+div.section h3.pull-left {
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 120%;
+	color: #900;
+	float: left;
+	margin: 0px 0px 10px 0px;
+	width: 200px;
+	text-align: right;
+}
 div.section p {
 	font-family: Georgia;
 	font-size: 18px;
@@ -97,7 +107,12 @@ div.section p.more {
 div.section p.centered {
 	text-align: center;
 }
-div.section p.footnote {
+div.section p.download,
+div.section p.credit {
+	font-size: 14px;
+}
+div.section p.footnote,
+div.section p.sponsorship {
 	font-size: 12px;
 }
 div.section img.biopic {
@@ -110,7 +125,8 @@ div.section img.biopic {
 div.section a.screencast {
 	background-color: transparent !important;
 	float: left;
-	margin: 0px 0px 25px 20px;
+	clear: left;
+	margin: 0px 0px 25px 25px;
 }
 div.section a.screencast img {
 	display: block;
@@ -153,6 +169,31 @@ div.section ul.grid li p a {
 div.section ul.grid li p a:hover {
 	background-color: #f4dda6 !important;
 }
+div.section div.video {
+	margin: 0px 0px 25px 250px;
+	width: 450px;
+}
+div.section ul.links {
+	list-style: none;
+	float: left;
+	clear: left;
+	text-align: right;
+	width: 200px;
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+	font-family: Georgia;
+	font-size: 14px;
+	line-height: 140%;
+	overflow: hidden;
+}
+div.section ul.links li {
+	float: right;
+	clear: right;
+}
+div.section ul.links li.rss {
+	background: url(images/rss.png) no-repeat 0px 1px;
+	padding: 0px 0px 0px 22px;
+}
 #navigation {
 	color: #ccc;
 	width: 726px;
@@ -185,12 +226,24 @@ div.section ul.grid li p a:hover {
 	display: block;
 	float: right;
 }
-#article p a, #article ol a {
+#article p a,
+#article ol a,
+#article ul a {
 	color: #369;
 }
-#article p a:hover {
+#article p a:hover,
+#article ol a:hover,
+#article ul a:hover {
 	background-color: #f4dda6;
 	text-decoration: none;
+}
+#article hr.rule {
+	border: 0px;
+	color: #bbb;
+	background-color: #bbb;
+	height: 1px;
+	width: 670px;
+	margin: 0px auto 25px;
 }
 #footer {
 	color: #666;
