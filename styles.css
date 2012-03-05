@@ -1,5 +1,3 @@
-/* @override http://127.0.0.1:4000/styles.css */
-
 /* Site */
 body {
 	background: #fff url(images/topbluefade.gif) repeat-x center top;
@@ -350,7 +348,7 @@ div.section ul.links li.rss {
 #slideshow {
 	font-family: Georgia;
 	font-size: 16px;
-	height: 130px;
+	height: 132px;
 	line-height: 140%;
 	margin: 0px auto 30px;
 	text-align: center;
