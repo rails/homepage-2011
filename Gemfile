@@ -1,4 +1,8 @@
 source :rubygems
 
-gem 'jekyll', '0.11.2'
+gem 'jekyll'
+gem 'rack'
+gem 'rack-contrib'
+gem 'rdiscount'
 gem 'RedCloth'
+gem 'thin'
