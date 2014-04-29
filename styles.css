@@ -436,7 +436,7 @@ div.section ul.links li.rss {
 	display: inline;
 }
 #applications li p a:hover {
-	background-color: #f4dda6 !important;	
+	background-color: #f4dda6 !important;
 }
 /* Quotes */
 #article.quotes blockquote {
@@ -469,7 +469,14 @@ div.section ul.links li.rss {
 	text-align: center;
 	margin: 40px 0px 15px 0px;
 }
-#article.security p, 
+#article.security h3 {
+	color: #900;
+	font-family: Georgia;
+	font-size: 18px;
+	margin: 0;
+	line-height: 140%;
+}
+#article.security p,
 #article.security ol {
 	font-family: Georgia;
 	font-size: 18px;
