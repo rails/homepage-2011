@@ -192,6 +192,11 @@ div.section ul.links li.rss {
 	background: url(images/rss.png) no-repeat 0px 1px;
 	padding: 0px 0px 0px 22px;
 }
+div.section code {
+	font-family: Courier New, Courier, mono;
+	font-size: 16px;
+	font-weight: bold;
+}
 #navigation {
 	color: #ccc;
 	width: 726px;
