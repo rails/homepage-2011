@@ -198,7 +198,6 @@ div.section code {
 	font-weight: bold;
 }
 #navigation {
-	color: #ccc;
 	width: 726px;
 	margin: 15px auto 10px;
 	font-size: 10px;
@@ -371,7 +370,7 @@ div.section code {
 }
 #slideshow blockquote p cite {
 	font-size: 14px;
-	color: #a69e8a;
+	color: #464242;
 }
 #slideshow p.more {
 	font-size: 14px;
@@ -382,7 +381,7 @@ div.section code {
 	width: 700px;
 }
 #slideshow p.more a {
-	color: #a69e8a;
+	color: #464242;
 }
 #slideshow p.more a:hover {
 	background-color: #000;
