@@ -218,15 +218,23 @@ div.section code {
 #article {
 	padding: 0px 0px 20px 0px;
 }
-#article h1 {
+#article header {
 	background: url(images/rails.png) no-repeat left top;
 	margin: 50px auto 32px;
-	overflow: hidden;
-	width: 706px;
+	width: 606px;
+	padding-left: 100px;
+	text-align: center;
 }
-#article h1 img {
-	display: block;
-	float: right;
+#article header h1 {
+	margin: 0 auto 28px;
+	font-size: 30px;
+}
+#article header h2 {
+	margin: 0 auto;
+	font-size: 17px;
+	font-weight: 100;
+	line-height: 21px;
+	color: #878787;
 }
 #article p a,
 #article ol a,
