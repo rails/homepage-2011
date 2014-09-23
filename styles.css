@@ -226,15 +226,22 @@ div.section code {
 	text-align: center;
 }
 #article header h1 {
-	margin: 0 auto 28px;
-	font-size: 30px;
+	margin: 0 auto 12px;
+  font-family: "expressway",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+	font-size: 38px;
+  line-height: 30px;
+  color: #000000;
 }
 #article header h2 {
 	margin: 0 auto;
-	font-size: 17px;
-	font-weight: 100;
-	line-height: 21px;
-	color: #878787;
+  font-family: "expressway",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+	font-size: 21px;
+	line-height: 24px;
+	color: #999999;
 }
 #article p a,
 #article ol a,
