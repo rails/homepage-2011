@@ -147,6 +147,10 @@ cite {
     background-color: #981A21;
 }
 
+.section-inner {
+    padding: 20px;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
