@@ -1,0 +1,114 @@
+ <!-- Quotes Section -->
+<section class="success" id="quotes">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Quotes</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="slideshow" class="col-lg-12 text-center">
+                <blockquote>
+                  <p>
+                    “Ruby on Rails is a breakthrough in lowering the barriers of entry to programming.<br>
+                    Powerful web applications that formerly might have taken weeks or months<br>
+                    to develop can be produced in a matter of days.”
+                  </p>
+                  <p>
+                  <br>
+                  <cite>– Tim O’Reilly, Founder of O’Reilly Media</cite></p>
+                </blockquote>
+                <blockquote style="display: none;">
+                  <p>
+                    “Rails is the most well thought-out web development framework I’ve ever used.<br>
+                    And that’s in a decade of doing web applications for a living. I’ve built my<br>
+                    own frameworks, helped develop the Servlet API, and have created more than<br>
+                    a few web servers from scratch. Nobody has done it like this before.”
+                  </p>
+                  <p>
+                  <br>
+                  <cite>– James Duncan Davidson, Creator of Tomcat and Ant</cite></p>
+                </blockquote>
+                <blockquote style="display: none;">
+                  <p>
+                    “It is impossible not to notice Ruby on Rails.  It has had a huge effect both in<br>
+                    and outside the Ruby community... Rails has become a standard to which even<br>
+                    well-established tools are comparing themselves to.”
+                  </p>
+                  <p>
+                  <br>
+                  <cite>– Martin Fowler, Author of Refactoring, PoEAA, XP Explained</cite></p>
+                </blockquote>
+                <blockquote style="display: none;">
+                  <p>
+                    “What sets this framework apart from all of the others is the preference for<br>
+                    convention over configuration making applications easier<br>
+                    to develop and understand.”
+                  </p>
+                  <p>
+                  <br>
+                  <cite>– Sam Ruby, ASF board of directors</cite></p>
+                </blockquote>
+                <blockquote style="display: none;">
+                  <p>
+                    “Before Ruby on Rails, web programming required a lot of verbiage, steps and time.<br>
+                    Now, web designers and software engineers can develop a website<br>
+                    much faster and more simply, enabling them to be more productive<br>
+                    and effective in their work.”
+                  </p>
+                  <p>
+                  <br>
+                  <cite>– Bruce Perens, Open Source Luminary</cite></p>
+                </blockquote>
+                <blockquote style="display: none;">
+                  <p>
+                    “After researching the market, Ruby on Rails stood out as the best choice.<br>
+                    We have been very happy with that decision.  We will continue<br>
+                    building on Rails and consider it a key business advantage.”
+                  </p>
+                  <p>
+                  <br>
+                  <cite>– Evan Williams, Creator of Blogger and ODEO</cite></p>
+                </blockquote>
+                <blockquote style="display: none;">
+                  <p>
+                    “Ruby on Rails is astounding. Using it is like watching a kung-fu movie,<br>
+                    where a dozen bad-ass frameworks prepare to beat up the little newcomer<br>
+                    only to be handed their asses in a variety of imaginative ways.”
+                  </p>
+                  <p>
+                  <br>
+                  <cite>– Nathan Torkington, O’Reilly Program Chair for OSCON</cite></p>
+                </blockquote>
+                <blockquote style="display: none;">
+                  <p>
+                    “Rails is the killer app for Ruby.”
+                  </p>
+                  <p>
+                  <br>
+                  <cite>– Yukihiro Matsumoto, Creator of Ruby</cite></p>
+                </blockquote>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <a href="#" class="btn btn-lg btn-outline">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    $(function() {
+      setInterval(function() {
+        var slideshow = $('#slideshow');
+        var visible = slideshow.children('blockquote:visible');
+
+        if(visible.length > 0) {
+          visible.fadeOut(500, function() {
+            $(this).appendTo(slideshow);
+            slideshow.children('blockquote:first-child').fadeIn(500);
+          });
+        } else {
+          slideshow.children('blockquote:first-child').fadeIn(500);
+        }
+      }, 15000);
+    });
+  </script>
