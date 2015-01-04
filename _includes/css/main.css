@@ -22,7 +22,6 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #000;
 }
 
 h1,
@@ -81,7 +80,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #000;
     text-shadow: 3px 2px 7px #000;
     background: #F6E69F;
 }
@@ -317,9 +316,9 @@ section.createdby {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #{{ site.color.primary }};
-    background: #fff;
+    border: solid 2px #981A21;
+    color: #981A21;
+    background: #F6E69F;
 }
 
 .floating-label-form-group {
