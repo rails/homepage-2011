@@ -2,67 +2,89 @@
 layout: default
 title: "Ruby on Rails: Download"
 ---
-    <div id="article" class="download"><article>
-      <header>
-        <h1>Get Ruby on Rails in no time</h1>
-        <h2>
-          Rails is low on dependencies and prides itself on shipping with<br />
-          most everything you need in the box. To get started, just install<br />
-          Ruby, the language, and RubyGems, the package manager.
-        </h2>
-      </header>
-      <div class="section">
-        <h2>Ruby</h2>
-        <p>
-          <img src="/images/pages/download/ruby.png" class="align-right" alt="Ruby">
-          We recommend <span class="highlight">Ruby 2.1</span> or newer for use with Rails.
-          Rails requires Ruby 1.9.3 or newer.
-        </p>
-        <p>
-          <a href="http://www.ruby-lang.org/en/downloads/" title="Download Ruby">Source:</a> Compile it yourself<br>
-          <a href="http://rubyinstaller.org" title="Get Ruby installer for Windows">Windows installer:</a> Ruby, popular extensions, editor<br>
-          <strong>OS X 10.5+:</strong> Included with developer tools<br>(then do <code>gem update rails</code>)
-        </p>
-        <p>
-          We recommend managing your Ruby installation through <a href="https://github.com/sstephenson/rbenv" title="Rbenv repository on github">rbenv</a>. It’s an easy way to run multiple versions for different applications and update when a new release is made.
-        </p>
+
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <img class="img-responsive" src="../images/rails.png" alt="Ruby on Rails">
+        <div class="intro-text">
+            <span class="name">Get Ruby on Rails in no time</span>
+            <h2>
+              Rails is low on dependencies and prides itself on shipping with
+              most everything you need in the box. To get started, just install
+              Ruby, the language, and RubyGems, the package manager.
+            </h2>
+        </div>
       </div>
-      <div class="section">
-        <h2>Rails</h2>
-        <p>
-          With Ruby installed, you can install all of Rails and its dependencies through RubyGems on the command line:
-        </p>
-        <blockquote>
+    </div>
+  </div>
+</header>
+<section>
+  <div class="container">
+    <div class="row section-inner">
+      <div class="col-md-6">
+          <h2>Ruby</h2>
           <p>
-            gem install rails
+            <img src="/images/pages/download/ruby.png" class="pull-right" alt="Ruby">
+            We recommend <span class="highlight">Ruby 2.1</span> or newer for use with Rails.
+            Rails requires Ruby 1.9.3 or newer.
           </p>
-        </blockquote>
-        <p>
-          New versions of Rails can be installed the same way.
-        </p>
-      </div>
-      <div class="section">
-        <h2>Make your application</h2>
-        <p>
-          Create your application skeleton and start the server:
-        </p>
-        <blockquote>
           <p>
-            rails new path/to/your/new/application<br>
-            cd path/to/your/new/application<br>
-            rails server
+            <a href="http://www.ruby-lang.org/en/downloads/" title="Download Ruby">Source:</a> Compile it yourself<br>
+            <a href="http://rubyinstaller.org" title="Get Ruby installer for Windows">Windows installer:</a> Ruby, popular extensions, editor<br>
+            <strong>OS X 10.5+:</strong> Included with developer tools<br>(then do <code>gem update rails</code>)
           </p>
-        </blockquote>
-        <p>
-          You’re running Ruby on Rails! Follow the instructions on http://localhost:3000.
-        </p>
+          <p>
+            We recommend managing your Ruby installation through <a href="https://github.com/sstephenson/rbenv" title="Rbenv repository on github">rbenv</a>. It’s an easy way to run multiple versions for different applications and update when a new release is made.
+          </p>
       </div>
-      <div class="section">
-        <h2 class="small">Editors</h2>
-        <p class="small">
-          <a href="http://macromates.com/" title="Macromates website">TextMate on OS X</a> has long been the favored Rails editor, but the classic editors are still going strong.
-          <a href="http://www.vim.org/scripts/script.php?script_id=1567" title="Read more about VIM for rails">See VIM for Rails</a> and <a href="http://rinari.rubyforge.org/" title="Get Emacs for rails">Emacs for Rails</a>.
-          For a full-on IDE, check out <a href="http://www.jetbrains.com/ruby/index.html" title="Ruby on rails IDE">JetBrains RubyMine</a>.
-        </p>
+
+      
+      <div class="col-md-6">
+          <h2>Rails</h2>
+          <p>
+            With Ruby installed, you can install all of Rails and its dependencies through RubyGems on the command line:
+          </p>
+          <blockquote>
+            <p>
+              gem install rails
+            </p>
+          </blockquote>
+          <p>
+            New versions of Rails can be installed the same way.
+          </p>
       </div>
-    </article></div>
+
+    </div>
+    <div class="row section-inner">
+
+      <div class="col-md-6">
+          <h2>Editors</h2>
+          <p>
+            <a href="http://macromates.com/" title="Macromates website">TextMate on OS X</a> has long been the favored Rails editor, but the classic editors are still going strong.
+            <a href="http://www.vim.org/scripts/script.php?script_id=1567" title="Read more about VIM for rails">See VIM for Rails</a> and <a href="http://rinari.rubyforge.org/" title="Get Emacs for rails">Emacs for Rails</a>.
+            For a full-on IDE, check out <a href="http://www.jetbrains.com/ruby/index.html" title="Ruby on rails IDE">JetBrains RubyMine</a>.
+          </p>
+      </div>
+
+      <div class="col-md-6">
+          <h2>Make your application</h2>
+          <p>
+            Create your application skeleton and start the server:
+          </p>
+          <blockquote>
+            <p><br>
+              rails new path/to/your/new/application<br>
+              cd path/to/your/new/application<br>
+              rails server
+            </p>
+          </blockquote>
+          <p>
+            You’re running Ruby on Rails! Follow the instructions on http://localhost:3000.
+          </p>
+      </div>
+    </div>
+  </div>
+
+</section>

@@ -2,153 +2,33 @@
 layout: default
 title: "Ruby on Rails"
 ---
-    <div id="article" class="overview"><article>
-      <header>
-        <h1>Web development that doesn’t hurt</h1>
-        <h2>
-          Ruby on Rails<sup><small>&reg;</small></sup> is an open-source web framework that’s optimized<br />
-          for programmer happiness and sustainable productivity. It lets you<br />
-          write beautiful code by favoring convention over configuration.
-        </h2>
-      </header>
-      <p id="announce">
-        <a href="http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/" title="Ruby on Rails Blog">Rails 4.2.0 has been released!</a>
-      </p>
-      <div id="slivers">
-        <ul>
-          <li role="listitem">
-            <h2>Get Excited</h2>
-            <a href="/screencasts/" title="Click for screencasts"><img src="/images/pages/overview/screencasts2.png" class="bordered" width="140" height="150" alt="Image representing a block of code"></a>
-            <p><a href="/screencasts/" title="Some screencasts about Rails">Screencasts &amp; presentations</a></p>
-          </li>
-          <li role="listitem">
-            <h2>Get Started</h2>
-            <a href="/download/" title="Download the Ruby on Rails last version"><img src="/images/pages/overview/download42.png" width="144" height="153" alt="Graphic showing a down arrow with the number of the latest stable version of Rails"></a>
-            <p><a href="/download/" title="Download the Ruby on Rails last version">4.2.0 released Dec 19, 2014</a></p>
-          </li>
-          <li role="listitem">
-            <h2>Get Better</h2>
-            <a href="/documentation/" title="APIs, Books and Guides documentation about Ruby on Rails"><img src="/images/pages/documentation/awdr4.png" width="140" height="150" class="bordered" alt="Image showing the cover of the book Agile development with rails"></a>
-            <p><a href="/documentation/" title="APIs, Books and Guides documentation about Ruby on Rails">API, Guides, Books</a></p>
-          </li>
-          <li role="listitem">
-            <h2>Get Involved</h2>
-            <a href="/community/" title="Join to the Ruby on Rails Community"><img src="/images/pages/overview/participate.gif" width="144" height="153" alt="Image showing a text bubble and the following words: IRC, Mailing list, bug tracker, wiki"></a href="/community/" title="Join to the Ruby on Rails Community">Join the community</a></p>
-          </li>
-        </ul>
-      </div>
-      <div id="slideshow">
-        <blockquote>
-          <p>
-            “Ruby on Rails is a breakthrough in lowering the barriers of entry to programming.<br>
-            Powerful web applications that formerly might have taken weeks or months<br>
-            to develop can be produced in a matter of days.”
-          </p>
-          <p><cite>– Tim O’Reilly, Founder of O’Reilly Media</cite></p>
-        </blockquote>
-        <blockquote style="display: none;">
-          <p>
-            “Rails is the most well thought-out web development framework I’ve ever used.<br>
-            And that’s in a decade of doing web applications for a living. I’ve built my<br>
-            own frameworks, helped develop the Servlet API, and have created more than<br>
-            a few web servers from scratch. Nobody has done it like this before.”
-          </p>
-          <p><cite>– James Duncan Davidson, Creator of Tomcat and Ant</cite></p>
-        </blockquote>
-        <blockquote style="display: none;">
-          <p>
-            “It is impossible not to notice Ruby on Rails.  It has had a huge effect both in<br>
-            and outside the Ruby community... Rails has become a standard to which even<br>
-            well-established tools are comparing themselves to.”
-          </p>
-          <p><cite>– Martin Fowler, Author of Refactoring, PoEAA, XP Explained</cite></p>
-        </blockquote>
-        <blockquote style="display: none;">
-          <p>
-            “What sets this framework apart from all of the others is the preference for<br>
-            convention over configuration making applications easier<br>
-            to develop and understand.”
-          </p>
-          <p><cite>– Sam Ruby, ASF board of directors</cite></p>
-        </blockquote>
-        <blockquote style="display: none;">
-          <p>
-            “Before Ruby on Rails, web programming required a lot of verbiage, steps and time.<br>
-            Now, web designers and software engineers can develop a website<br>
-            much faster and more simply, enabling them to be more productive<br>
-            and effective in their work.”
-          </p>
-          <p><cite>– Bruce Perens, Open Source Luminary</cite></p>
-        </blockquote>
-        <blockquote style="display: none;">
-          <p>
-            “After researching the market, Ruby on Rails stood out as the best choice.<br>
-            We have been very happy with that decision.  We will continue<br>
-            building on Rails and consider it a key business advantage.”
-          </p>
-          <p><cite>– Evan Williams, Creator of Blogger and ODEO</cite></p>
-        </blockquote>
-        <blockquote style="display: none;">
-          <p>
-            “Ruby on Rails is astounding. Using it is like watching a kung-fu movie,<br>
-            where a dozen bad-ass frameworks prepare to beat up the little newcomer<br>
-            only to be handed their asses in a variety of imaginative ways.”
-          </p>
-          <p><cite>– Nathan Torkington, O’Reilly Program Chair for OSCON</cite></p>
-        </blockquote>
-        <blockquote style="display: none;">
-          <p>
-            “Rails is the killer app for Ruby.”
-          </p>
-          <p><cite>– Yukihiro Matsumoto, Creator of Ruby</cite></p>
-        </blockquote>
-        <p class="more"><a href="/quotes/" title="Read More quotes">Read more quotes</a></p>
-      </div>
-      <script type="text/javascript">
-        $(function() {
-          setInterval(function() {
-            var slideshow = $('#slideshow');
-            var visible = slideshow.children('blockquote:visible');
 
-            if(visible.length > 0) {
-              visible.fadeOut(500, function() {
-                $(this).appendTo(slideshow);
-                slideshow.children('blockquote:first-child').fadeIn(500);
-              });
-            } else {
-              slideshow.children('blockquote:first-child').fadeIn(500);
-            }
-          }, 15000);
-        });
-      </script>
-      <div id="used_by" class="section">
-        <h2>Who is already<br>on Rails?</h2>
-        <p>Tens of thousands of Rails applications are already live. People are using Rails in the tiniest part-time operations to the biggest companies.</p>
-        <ul>
-          <li>
-            <a href="http://www.basecamp.com/?source=rails" title="Basecamp: Project management app"><img width="175" height="110" src="/images/applications/bcx.gif" alt="Image showing Basecamp's index page" class="bordered"></a>
-            <p><a href="http://www.basecamp.com/?source=rails" title="Basecamp: Project management app">Basecamp</a>: The original Rails app.</p>
-          </li>
-          <li>
-            <a href="http://twitter.com/" title="Twitter website"><img width="175" height="110" src="/images/applications/twitter.jpg" alt="Image showing Twitter's index page" class="bordered"></a>
-            <p><a href="http://twitter.com/" title="Twitter website">Twitter</a>: Stay connected.</p>
-          </li>
-          <li>
-            <a href="http://github.com/" title="Github build software better, together"><img width="175" height="110" src="/images/applications/github.jpg" alt="Image showing GitHub's index page" class="bordered"></a>
-            <p><a href="http://github.com/" title="Github build software better, together">GitHub</a>: Git repo hosting.</p>
-          </li>
-          <li>
-            <a href="http://www.shopify.com/" title="Shopify: e-commerce platform"><img width="175" height="110" src="/images/applications/shopify.jpg" alt="Shopify" class="bordered"></a>
-            <p><a href="http://www.shopify.com/" title="Shopify: e-commerce platform">Shopify</a>: E-commerce made easy.</p>
-          </li>
-        </ul>
+  <!-- Header -->
+  <header>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <img class="img-responsive" src="images/rails.png" alt="Ruby on Rails">
+                  <div class="intro-text">
+                      <span class="name">Web development that doesn’t hurt</span>
+                      <span class="skills">Ruby on Rails<sup><small>&reg;</small></sup> is an open-source web framework that’s optimized for programmer happiness and sustainable productivity. It lets you
+                        write beautiful code by favoring convention over configuration.</span>
+                  </div>
+              </div>
+          </div>
       </div>
-      <div id="created_by" class="section">
-        <h2>Who is<br>behind it?</h2>
-        <p>
-          Rails was created in 2003 by <a href="http://david.heinemeierhansson.com/" title="DHH's website">David Heinemeier Hansson</a>
-          and has since been extended by the <a href="/core">Rails core team</a> and
-          <a href="http://contributors.rubyonrails.org" title="Access to the list of contributors">more than 3,700 contributors</a>.
-        </p>
+  </header>
+
+  <div class="release">
+      <div class="container">
+          <div class="row">
+              <div class="footer-col col-md-12">
+                  <a href="http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/" title="Ruby on Rails Blog" class="btn btn-lg btn-outline">Rails 4.2.0 has been released!</a>
+              </div>
+          </div>
       </div>
-    </article></div>
+  </div>
+  {% include slivers.html %}
+  {% include quotes.html %}
+  {% include usedby.html %}
+  {% include createdby.html %}

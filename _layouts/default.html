@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>{{ page.title }}</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=800">
-    <link href="/styles.css" type="text/css" media="screen" rel="stylesheet">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script src="//use.typekit.net/iay1mwo.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
-{% include google.html %}
-  </head>
-  <body>
-{% include navigation.html %}
-    <div id="content" role= "main"><section>
-{{ content }}
-    </section></div>
-{% include footer.html %}
+
+  {% include head.html %}
+  
+  <body id="page-top" class="index">
+    
+    {% include header.html %}
+    
+    {{ content }}
+    
+    {% include footer.html %}
+    {% include js.html %}
   </body>
 </html>
