@@ -151,6 +151,11 @@ cite {
     padding: 20px;
 }
 
+.screencast img {
+    border: 2px solid #CCC;
+    padding: 2px;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
