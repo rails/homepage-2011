@@ -401,6 +401,7 @@ div.section code {
 #slideshow p.more a:hover {
 	background-color: #000;
 	text-decoration: none;
+	color: #fff;
 }
 #used_by ul {
 	list-style: none;
