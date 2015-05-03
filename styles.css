@@ -118,6 +118,8 @@ div.section img.biopic {
 	border: 2px solid #ccc;
 	padding: 2px;
 	float: left;
+	width: 150px;
+	height: 172px;
 	margin: 0px 0px 10px 40px;
 }
 div.section a.screencast {
