@@ -362,3 +362,15 @@ cite {
   font-size: 14px;
 	color: #a69e8a;
 }
+
+/* The following rules override values set by Bootstrap CSS, ensuring that
+   the site looks the same whether or not Bootstrap CSS is loaded. */
+
+*                                                   {-webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box}
+a                                                   {text-decoration: underline}
+code                                                {background-color: transparent; color: #000; padding-left: 0; padding-right: 0}
+pre                                                 {background-color: transparent; border: 0; padding: 0}
+h3                                                  {font-weight: bold}
+img                                                 {vertical-align: baseline}
+ul, ol                                              {margin-bottom: 14px}
+blockquote                                          {border-left: 0; padding: 0}
