@@ -8,6 +8,9 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+sup {
+  line-height: 0;
+}
 a img {
 	border: none;
 }
