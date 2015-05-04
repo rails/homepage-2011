@@ -82,17 +82,15 @@ div.section h2.small {
 div.section p.small {
 	font-size: 14px;
 }
-div.section blockquote {
+pre {
 	margin: 0px 0px 25px 250px;
 	width: 450px;
 }
-div.section blockquote p {
-	font-family: Courier New, Courier, mono;
-	font-size: 16px;
-	font-weight: bold;
+pre code {
 	line-height: 140%;
 	margin: 0px 25px;
 	width: auto;
+	display: block;
 }
 div.section p.more {
 	font-size: 12px;
