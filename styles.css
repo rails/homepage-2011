@@ -304,12 +304,9 @@ div.section code {
 	margin: 0px;
 	position: absolute;
 	width: 700px;
+	font-size: 16px;
 }
-#slideshow blockquote p {
-	margin: 0px;
-}
-#slideshow blockquote p cite {
-	font-size: 14px;
+#slideshow cite {
 	color: #464242;
 }
 #slideshow p.more {
@@ -351,20 +348,19 @@ div.section code {
 }
 
 /* Quotes */
-#article.quotes blockquote {
-	font-family: Georgia;
-	font-size: 18px;
-	line-height: 140%;
-	margin: 0px auto 25px;
-	text-align: center;
-	width: 700px;
-	padding: 0px;
-	position: relative;
+blockquote {
+  font-family: Georgia;
+  font-size: 18px;
+  text-align: center;
+  margin: 0px auto 25px;
+  line-height: 140%;
 }
-#article.quotes blockquote p {
+
+blockquote p {
 	margin: 0px;
 }
-#article.quotes blockquote p cite {
-	font-size: 14px;
+
+cite {
+  font-size: 14px;
 	color: #a69e8a;
 }
