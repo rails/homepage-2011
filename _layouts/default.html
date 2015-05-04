@@ -13,7 +13,17 @@
   <body>
 {% include navigation.html %}
     <div role="main"><section>
-{{ content }}
+      <div id="article"><article>
+        <header>
+          <h1>{{ page.header }}</h1>
+          <h2>
+            {{ page.subheader_1 }}<br />
+            {{ page.subheader_2 }}<br />
+            {{ page.subheader_3 }}
+          </h2>
+        </header>
+        {{ content }}
+      </article></div>
     </section></div>
 {% include footer.html %}
   </body>
