@@ -3,3 +3,5 @@ exclude:
   - Gemfile.lock
   - Rakefile
   - CNAME
+gems:
+  - jekyll-sitemap
