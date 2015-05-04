@@ -66,16 +66,6 @@ div.section h3 {
 	margin: 0px 0px 0px 250px;
 	line-height: 140%;
 }
-div.section h3.pull-left {
-	font-size: 20px;
-	font-weight: normal;
-	line-height: 120%;
-	color: #900;
-	float: left;
-	margin: 0px 0px 10px 0px;
-	width: 200px;
-	text-align: right;
-}
 div.section p {
 	font-family: Georgia;
 	font-size: 18px;
@@ -108,12 +98,7 @@ div.section p.more {
 div.section p.centered {
 	text-align: center;
 }
-div.section p.download,
-div.section p.credit {
-	font-size: 14px;
-}
-div.section p.footnote,
-div.section p.sponsorship {
+div.section p.footnote {
 	font-size: 12px;
 }
 div.section img.biopic {
@@ -136,66 +121,6 @@ div.section a.screencast img {
 	background-color: #fff;
 	border: 2px solid #ccc;
 	padding: 2px;
-}
-div.section ul.grid {
-	list-style: none;
-	margin: 0px 0px 15px 280px;
-	padding: 0px;
-	overflow: hidden;
-	width: 420px;
-}
-div.section ul.grid li {
-	float: left;
-	margin: 0px 0px 0px 0px;
-	height: 160px;
-	width: 200px;
-}
-div.section ul.grid li a {
-	background-color: transparent !important;
-	display: block;
-	margin: 0px 0px 5px 0px;
-}
-div.section ul.grid li img {
-	display: block;
-	border: 1px solid #ccc;
-	padding: 1px;
-}
-div.section ul.grid li p {
-	font-size: 10px;
-	font-family: inherit;
-	margin: 0px;
-	width: auto;
-}
-div.section ul.grid li p a {
-	display: inline;
-}
-div.section ul.grid li p a:hover {
-	background-color: #f4dda6 !important;
-}
-div.section div.video {
-	margin: 0px 0px 25px 250px;
-	width: 450px;
-}
-div.section ul.links {
-	list-style: none;
-	float: left;
-	clear: left;
-	text-align: right;
-	width: 200px;
-	padding: 0px;
-	margin: 0px 0px 20px 0px;
-	font-family: Georgia;
-	font-size: 14px;
-	line-height: 140%;
-	overflow: hidden;
-}
-div.section ul.links li {
-	float: right;
-	clear: right;
-}
-div.section ul.links li.rss {
-	background: url(images/rss.png) no-repeat 0px 1px;
-	padding: 0px 0px 0px 22px;
 }
 div.section code {
 	font-family: Courier New, Courier, mono;
@@ -258,14 +183,6 @@ div.section code {
 #article ul a:hover {
 	background-color: #f4dda6;
 	text-decoration: none;
-}
-#article hr.rule {
-	border: 0px;
-	color: #bbb;
-	background-color: #bbb;
-	height: 1px;
-	width: 670px;
-	margin: 0px auto 25px;
 }
 #article p.missing {
 	color: #000;
@@ -429,40 +346,7 @@ div.section code {
 	margin: 0px;
 	width: auto;
 }
-/* Applications */
-#applications {
-	list-style: none;
-	margin: 0px auto;
-	padding: 0px 0px 0px 110px;
-	overflow: hidden;
-	width: 700px;
-}
-#applications li {
-	float: left;
-	width: 200px;
-	margin: 0px 0px 20px 0px;
-}
-#applications li a {
-	display: block;
-	margin: 0px 0px 5px 0px;
-	background-color: transparent !important;
-}
-#applications li a img {
-	background-color: #fff;
-	border: 1px solid #CCC;
-	padding: 1px;
-	display: block;
-}
-#applications li p {
-	font-size: 10px;
-	margin: 0px;
-}
-#applications li p a {
-	display: inline;
-}
-#applications li p a:hover {
-	background-color: #f4dda6 !important;
-}
+
 /* Quotes */
 #article.quotes blockquote {
 	font-family: Georgia;
