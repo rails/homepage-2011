@@ -180,10 +180,8 @@ div.section code {
 #footer {
 	color: #666;
 	font-size: 11px;
-	margin: 0px auto;
-	padding: 0px 0px 44px 0px;
+	padding-bottom: 44px;
 	text-align: center;
-	width: 726px;
 }
 #footer p {
 	margin: 12px 0px;
