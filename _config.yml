@@ -5,3 +5,7 @@ exclude:
   - CNAME
 gems:
   - jekyll-sitemap
+defaults:
+  -
+    values:
+      layout:  "default"
