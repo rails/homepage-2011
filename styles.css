@@ -170,7 +170,6 @@ div.section code {
 	line-height: 13px;
 	margin: 0px;
 	padding: 5px 0px;
-	text-align: center;
 }
 #announce a {
 	color: #fff !important;
@@ -181,11 +180,15 @@ div.section code {
 	text-decoration: none;
 }
 #slivers {
-	background: url(images/herobackground.gif) repeat-x left top;
+	background: url(images/herobackground.gif) left top;
 	border-top: 2px solid #F6E69F;
 	border-bottom: 2px solid #F6E69F;
-	padding: 10px;
 }
+#slivers .col-sm-3 {
+	margin-top: 10px;
+  height: 240px;
+}
+
 #slivers ul {
 	list-style: none;
 	margin: 0px auto;
@@ -198,7 +201,7 @@ div.section code {
 	margin: 0px 24px;
 	width: 150px;
 }
-#slivers ul li h2 {
+#slivers h2 {
 	color: #0e3062;
 	font-family: Georgia;
 	font-size: 22px;
@@ -207,19 +210,19 @@ div.section code {
 	margin: 0px 0px 10px 0px;
 	text-align: center;
 }
-#slivers ul li img {
+#slivers img {
 	display: block;
 	margin: 0px auto 5px;
 }
-#slivers ul li p {
+#slivers p {
 	margin: 0px;
 	text-align: center;
 }
-#slivers ul li p a {
+#slivers p a {
 	color: #000;
 	font-size: 10px;
 }
-#slivers ul li p a:hover {
+#slivers p a:hover {
 	background-color: #000;
 	color: #fff;
 	text-decoration: none;
@@ -361,4 +364,5 @@ header h2                                           {margin-bottom: 0}
 }
 @media (min-width:992px)  { /* Reduce width on big screens */
   .container                                        {width: 750px}
+  #slivers .container                               {width: 792px}
 }
