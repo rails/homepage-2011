@@ -132,10 +132,8 @@ div.section code {
 	padding: 0px 0px 20px 0px;
 }
 #article header {
-	background: url(images/rails.png) no-repeat left top;
 	margin: 25px auto 32px;
 	width: 606px;
-	padding-left: 100px;
 	text-align: center;
 }
 #article header h1 {
@@ -155,6 +153,12 @@ div.section code {
 	font-size: 21px;
 	line-height: 24px;
 	color: #999999;
+}
+@media (min-width: 768px) {
+  #article header {
+    background: url(images/rails.png) no-repeat left top;
+    padding-left: 100px;
+  }
 }
 #article p a,
 #article ol a,
@@ -360,6 +364,8 @@ footer a:focus, footer a:hover,
 .navbar-collapse.in                                 {border-bottom-width: 1px}
 footer                                              {padding-bottom: 44px}
 footer p                                            {margin-top: 12px; margin-bottom: 12px}
+.navbar-brand                                       {padding-top: 8px}
+.navbar-brand img                                   {height: 34px}
 
 /* HORIZONTAL LAYOUT */
 .navbar-nav>li>a                                    {padding-left: 0; padding-right: 0}
@@ -368,4 +374,5 @@ footer p                                            {margin-top: 12px; margin-bo
 @media (min-width: 768px) { /* center the navbar, see stackoverflow.com/a/18778769 */
   .navbar .navbar-nav                               {display: inline-block; float: none; vertical-align: top}
   .navbar .navbar-collapse                          {text-align: center}
+  .navbar-brand                                     {display: none}
 }
