@@ -177,23 +177,6 @@ div.section code {
 	text-align: center;
 	width: 700px;
 }
-#footer {
-	color: #666;
-	font-size: 11px;
-	padding-bottom: 44px;
-	text-align: center;
-}
-#footer p {
-	margin: 12px 0px;
-}
-#footer p a {
-	color: #000;
-}
-#footer p a:hover {
-	background-color: #333;
-	color: #fff;
-	text-decoration: none;
-}
 #sponsored_by {
 	margin: 17px 0px !important;
 }
@@ -356,13 +339,17 @@ ul, ol                                              {margin-bottom: 14px}
 blockquote                                          {border-left: 0; padding: 0}
 
 /* TYPOGRAPHY */
-.navbar-nav                                         {font-size: 11px}
+.navbar-nav, footer                                 {font-size: 11px}
 .navbar-nav a                                       {font-weight: bold}
+footer a:focus, footer a:hover                      {text-decoration: none}
+footer                                              {text-align: center}
 
 /* COLOR */
+footer                                              {color: #666}
 .navbar-default                                     {background-color: transparent; border-color: transparent}
-.navbar-default .navbar-nav>li>a                    {color: #000}
+.navbar-default .navbar-nav>li>a, footer a          {color: #000}
 .navbar-default .navbar-nav>li>a:focus,
+footer a:focus, footer a:hover,
 .navbar-default .navbar-nav>li>a:hover              {color: #fff; background-color: #333}
 .navbar-collapse.in                                 {border-bottom-color: #e7e7e7; border-bottom-style: solid}
 .collapse:not(.in) .navbar-nav li:not(:last-child)  {border-right-color: #000; border-right-style: solid}
@@ -371,6 +358,8 @@ blockquote                                          {border-left: 0; padding: 0}
 .navbar-nav>li>a                                    {padding-top: 0; padding-bottom: 0}
 .navbar-nav li                                      {margin-top: 10px; margin-bottom: 15px}
 .navbar-collapse.in                                 {border-bottom-width: 1px}
+footer                                              {padding-bottom: 44px}
+footer p                                            {margin-top: 12px; margin-bottom: 12px}
 
 /* HORIZONTAL LAYOUT */
 .navbar-nav>li>a                                    {padding-left: 0; padding-right: 0}
