@@ -131,36 +131,6 @@ div.section code {
 #article {
 	padding: 0px 0px 20px 0px;
 }
-#article header {
-	margin: 27px auto 32px;
-	text-align: center;
-}
-#article header h1 {
-	margin: 0 auto 12px;
-  font-family: "expressway",sans-serif;
-  font-style: normal;
-  font-weight: 700;
-	font-size: 31px;
-  line-height: 30px;
-  color: #000000;
-}
-#article header h2 {
-	margin: 0 auto;
-  font-family: "expressway",sans-serif;
-  font-style: normal;
-  font-weight: 400;
-	font-size: 18px;
-	line-height: 24px;
-	color: #999999;
-}
-@media (min-width: 768px) {
-  #article header {
-    background: url(images/rails.png) no-repeat 22px top;
-    padding-left: 115px;
-  }
-  #article header h1 {font-size: 38px}
-  #article header h2 {font-size: 21px}
-}
 #article p a,
 #article ol a,
 #article ul a {
@@ -343,15 +313,23 @@ ul, ol                                              {margin-bottom: 14px}
 blockquote                                          {border-left: 0; padding: 0}
 
 /* TYPOGRAPHY */
+header                                              {font-family: "expressway", sans-serif; font-style: normal}
 .navbar-nav, footer                                 {font-size: 11px}
 .navbar-nav a                                       {font-weight: bold}
 footer a:focus, footer a:hover                      {text-decoration: none}
 footer                                              {text-align: center}
+h1                                                  {font-size: 31px; line-height: 30px; font-weight: 700}
+header h2                                           {font-size: 18px; line-height: 24px; font-weight: 400}
+@media (min-width: 768px) {
+  h1                                                {font-size: 38px}
+  header h2                                         {font-size: 21px}
+}
 
 /* COLOR */
 footer                                              {color: #666}
+header h2                                           {color: #999}
 .navbar-default                                     {background-color: transparent; border-color: transparent}
-.navbar-default .navbar-nav>li>a, footer a          {color: #000}
+.navbar-default .navbar-nav>li>a, footer a, h1      {color: #000}
 .navbar-default .navbar-nav>li>a:focus,
 footer a:focus, footer a:hover,
 .navbar-default .navbar-nav>li>a:hover              {color: #fff; background-color: #333}
@@ -363,9 +341,13 @@ footer a:focus, footer a:hover,
 .navbar-nav li                                      {margin-top: 10px; margin-bottom: 15px}
 .navbar-collapse.in                                 {border-bottom-width: 1px}
 footer                                              {padding-bottom: 44px}
-footer p                                            {margin-top: 12px; margin-bottom: 12px}
+footer p                                            {margin-top: 12px}
+footer p, h1                                        {margin-bottom: 12px}
 .navbar-brand                                       {padding-top: 8px}
 .navbar-brand img                                   {height: 34px}
+header                                              {margin-top: 27px; margin-bottom: 32px}
+h1, header h2                                       {margin-top: 0}
+header h2                                           {margin-bottom: 0}
 
 /* HORIZONTAL LAYOUT */
 .navbar-nav>li>a                                    {padding-left: 0; padding-right: 0}
@@ -375,6 +357,7 @@ footer p                                            {margin-top: 12px; margin-bo
   .navbar .navbar-nav                               {display: inline-block; float: none; vertical-align: top}
   .navbar .navbar-collapse                          {text-align: center}
   .navbar-brand                                     {display: none}
+  header.container                                  {background: url(images/rails.png) no-repeat 22px top; padding-left: 115px;}
 }
 @media (min-width:992px)  { /* Reduce width on big screens */
   .container                                        {width: 750px}
