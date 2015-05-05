@@ -133,7 +133,6 @@ div.section code {
 }
 #article header {
 	margin: 27px auto 32px;
-	width: 606px;
 	text-align: center;
 }
 #article header h1 {
@@ -156,9 +155,8 @@ div.section code {
 }
 @media (min-width: 768px) {
   #article header {
-    background: url(images/rails.png) no-repeat left top;
-    padding-left: 100px;
-    width: 706px;
+    background: url(images/rails.png) no-repeat 22px top;
+    padding-left: 115px;
   }
 }
 #article p a,
@@ -375,4 +373,7 @@ footer p                                            {margin-top: 12px; margin-bo
   .navbar .navbar-nav                               {display: inline-block; float: none; vertical-align: top}
   .navbar .navbar-collapse                          {text-align: center}
   .navbar-brand                                     {display: none}
+}
+@media (min-width:992px)  { /* Reduce width on big screens */
+  .container                                        {width: 750px}
 }
