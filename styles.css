@@ -140,7 +140,7 @@ div.section code {
   font-family: "expressway",sans-serif;
   font-style: normal;
   font-weight: 700;
-	font-size: 38px;
+	font-size: 31px;
   line-height: 30px;
   color: #000000;
 }
@@ -149,7 +149,7 @@ div.section code {
   font-family: "expressway",sans-serif;
   font-style: normal;
   font-weight: 400;
-	font-size: 21px;
+	font-size: 18px;
 	line-height: 24px;
 	color: #999999;
 }
@@ -158,6 +158,8 @@ div.section code {
     background: url(images/rails.png) no-repeat 22px top;
     padding-left: 115px;
   }
+  #article header h1 {font-size: 38px}
+  #article header h2 {font-size: 21px}
 }
 #article p a,
 #article ol a,
