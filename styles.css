@@ -162,42 +162,6 @@ div.section code {
 	vertical-align: -7px;
 }
 
-#slideshow {
-	font-family: Georgia;
-	font-size: 16px;
-	height: 162px;
-	line-height: 140%;
-	margin: 0px auto 30px;
-	text-align: center;
-	width: 700px;
-	padding: 30px 0px 0px 0px;
-	position: relative;
-}
-#slideshow blockquote {
-	margin: 0px;
-	position: absolute;
-	width: 700px;
-	font-size: 16px;
-}
-#slideshow cite {
-	color: #464242;
-}
-#slideshow p.more {
-	font-size: 14px;
-	font-style: italic;
-	margin: 0px;
-	position: absolute;
-	bottom: 0px;
-	width: 700px;
-}
-#slideshow p.more a {
-	color: #464242;
-}
-#slideshow p.more a:hover {
-	background-color: #000;
-	text-decoration: none;
-	color: #fff;
-}
 #used_by ul {
 	list-style: none;
 	margin: 0px 0px 0px 280px;
@@ -251,10 +215,13 @@ blockquote                                          {border-left: 0; padding: 0}
 
 /* TYPOGRAPHY */
 header                                              {font-family: "expressway", sans-serif; font-style: normal}
-#slivers h2                                         {font-family: Georgia; font-size: 22px; line-height: 24px; font-weight: normal}
+#slivers h2, #slideshow                             {font-family: Georgia}
+#slivers h2                                         {font-size: 22px; line-height: 24px; font-weight: normal}
 .navbar-nav, footer                                 {font-size: 11px}
 .navbar-nav a                                       {font-weight: bold}
 footer a:focus, footer a:hover                      {text-decoration: none}
+#slideshow blockquote                               {font-size: 16px}
+#slideshow p.more                                   {font-size: 14px; font-style: italic}
 
 footer                                              {text-align: center}
 #announce                                           {font-size: 11px; line-height: 13px}
@@ -272,8 +239,10 @@ header h2                                           {color: #999}
 p#announce                                          {color: #fff; background-color: #981a21}
 p#announce a                                        {color: #fff}
 #slivers h2                                         {color: #0e3062}
+#slideshow cite, #slideshow p.more a                {color: #464242}
 p#announce a:hover, p#announce a:focus,
-#slivers p a:hover, #slivers p a:focus              {color: #fff; background-color: #000}
+#slivers p a:hover, #slivers p a:focus,
+#slideshow p a:hover, #slideshow p a:focus          {color: #fff; background-color: #000}
 #slivers                                            {border-top-color: #f6e69f; border-top-style: solid; border-bottom-color: #f6e69f; border-bottom-style: solid; background: url(images/herobackground.gif) left top}
 .navbar-default                                     {background-color: transparent; border-color: transparent}
 .navbar-default .navbar-nav>li>a, footer a, h1,
@@ -300,6 +269,11 @@ header h2, #announce                                {margin-bottom: 0}
 #slivers p                                          {margin-top: 2px; margin-bottom: 25px}
 #slivers h2                                         {margin-top: 10px}
 #slivers                                            {border-top-width: 2px; border-bottom-width: 2px}
+#slideshow                                          {margin-top: 16px; margin-bottom: 22px}
+#slideshow blockquote                               {height: 87px}
+@media (max-width: 768px) {
+  #slideshow blockquote                             {height: 200px}
+}
 
 /* HORIZONTAL LAYOUT */
 .navbar-nav>li>a                                    {padding-left: 0; padding-right: 0}
