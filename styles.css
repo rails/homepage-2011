@@ -162,69 +162,6 @@ div.section code {
 	vertical-align: -7px;
 }
 
-/* Overview */
-#announce {
-	background-color: #981a21;
-	color: #fff;
-	font-size: 11px;
-	line-height: 13px;
-	margin: 0px;
-	padding: 5px 0px;
-	text-align: center;
-}
-#announce a {
-	color: #fff !important;
-	text-decoration: underline;
-}
-#announce a:hover {
-	background-color: #000 !important;
-	text-decoration: none;
-}
-#slivers {
-	background: url(images/herobackground.gif) repeat-x left top;
-	border-top: 2px solid #F6E69F;
-	border-bottom: 2px solid #F6E69F;
-	padding: 10px;
-}
-#slivers ul {
-	list-style: none;
-	margin: 0px auto;
-	padding: 0px;
-	overflow: hidden;
-	width: 792px;
-}
-#slivers ul li {
-	float: left;
-	margin: 0px 24px;
-	width: 150px;
-}
-#slivers ul li h2 {
-	color: #0e3062;
-	font-family: Georgia;
-	font-size: 22px;
-	line-height: 24px;
-	font-weight: normal;
-	margin: 0px 0px 10px 0px;
-	text-align: center;
-}
-#slivers ul li img {
-	display: block;
-	margin: 0px auto 5px;
-}
-#slivers ul li p {
-	margin: 0px;
-	text-align: center;
-}
-#slivers ul li p a {
-	color: #000;
-	font-size: 10px;
-}
-#slivers ul li p a:hover {
-	background-color: #000;
-	color: #fff;
-	text-decoration: none;
-}
-
 #slideshow {
 	font-family: Georgia;
 	font-size: 16px;
@@ -314,10 +251,14 @@ blockquote                                          {border-left: 0; padding: 0}
 
 /* TYPOGRAPHY */
 header                                              {font-family: "expressway", sans-serif; font-style: normal}
+#slivers h2                                         {font-family: Georgia; font-size: 22px; line-height: 24px; font-weight: normal}
 .navbar-nav, footer                                 {font-size: 11px}
 .navbar-nav a                                       {font-weight: bold}
 footer a:focus, footer a:hover                      {text-decoration: none}
+
 footer                                              {text-align: center}
+#announce                                           {font-size: 11px; line-height: 13px}
+#slivers p                                          {font-size: 10px}
 h1                                                  {font-size: 31px; line-height: 30px; font-weight: 700}
 header h2                                           {font-size: 18px; line-height: 24px; font-weight: 400}
 @media (min-width: 768px) {
@@ -325,11 +266,18 @@ header h2                                           {font-size: 18px; line-heigh
   header h2                                         {font-size: 21px}
 }
 
-/* COLOR */
+/* COLOR AND BACKGROUND */
 footer                                              {color: #666}
 header h2                                           {color: #999}
+p#announce                                          {color: #fff; background-color: #981a21}
+p#announce a                                        {color: #fff}
+#slivers h2                                         {color: #0e3062}
+p#announce a:hover, p#announce a:focus,
+#slivers p a:hover, #slivers p a:focus              {color: #fff; background-color: #000}
+#slivers                                            {border-top-color: #f6e69f; border-top-style: solid; border-bottom-color: #f6e69f; border-bottom-style: solid; background: url(images/herobackground.gif) left top}
 .navbar-default                                     {background-color: transparent; border-color: transparent}
-.navbar-default .navbar-nav>li>a, footer a, h1      {color: #000}
+.navbar-default .navbar-nav>li>a, footer a, h1,
+#slivers p a                                        {color: #000}
 .navbar-default .navbar-nav>li>a:focus,
 footer a:focus, footer a:hover,
 .navbar-default .navbar-nav>li>a:hover              {color: #fff; background-color: #333}
@@ -347,7 +295,11 @@ footer p, h1                                        {margin-bottom: 12px}
 .navbar-brand img                                   {height: 34px}
 header                                              {margin-top: 27px; margin-bottom: 32px}
 h1, header h2                                       {margin-top: 0}
-header h2                                           {margin-bottom: 0}
+header h2, #announce                                {margin-bottom: 0}
+#announce                                           {padding-top: 5px; padding-bottom: 5px}
+#slivers p                                          {margin-top: 2px; margin-bottom: 25px}
+#slivers h2                                         {margin-top: 10px}
+#slivers                                            {border-top-width: 2px; border-bottom-width: 2px}
 
 /* HORIZONTAL LAYOUT */
 .navbar-nav>li>a                                    {padding-left: 0; padding-right: 0}
@@ -361,4 +313,5 @@ header h2                                           {margin-bottom: 0}
 }
 @media (min-width:992px)  { /* Reduce width on big screens */
   .container                                        {width: 750px}
+  #slivers .container                               {width: 792px}
 }
