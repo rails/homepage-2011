@@ -46,82 +46,73 @@ img.align-right {
 span.highlight {
 	background-color: #ffc;
 }
-div.section {
-	margin: 0px auto;
-	overflow: hidden;
-	width: 700px;
-}
 div.section h2 {
-	color: #000;
-	float: left;
 	font-family: Georgia;
 	font-size: 28px;
+
 	font-weight: normal;
 	line-height: 120%;
-	margin: 0px 0px 20px 0px;
-	text-align: right;
-	width: 200px;
+  margin: 0 10px 20px 0;
+}
+@media (min-width:768px) {
+  section h2.small { font-size: 20px; }
+}
+@media (max-width:768px) {
+  section h2 { text-align: center; }
 }
 div.section h3 {
 	color: #900;
 	font-family: Georgia;
 	font-size: 18px;
-	margin: 0px 0px 0px 250px;
+  margin: 0 10px 0px 10px;
 	line-height: 140%;
+}
+div.section ul, div.section ol {
+  margin: 0 10px 14px 10px;
 }
 div.section p {
   font-family: Georgia;
   font-size: 18px;
   line-height: 140%;
-  margin: 0px 0px 25px 250px;
-  width: 450px;
+  margin: 0 10px 25px 10px;
 }
-div.section h2.small {
-	font-size: 20px;
-}
+@media (min-width: 768px) {
 div.section p.small {
 	font-size: 14px;
 }
-pre {
-	margin: 0px 0px 25px 250px;
-	width: 450px;
 }
-pre code {
-	line-height: 140%;
-	margin: 0px 25px;
-	width: auto;
-	display: block;
+div.section pre {
+  margin: 0 10px 25px 10px;
 }
-div.section p.more {
-	font-size: 12px;
-	text-align: center;
+@media (min-width: 768px) {
+  div.section pre { margin-left: 35px;}
 }
-div.section p.centered {
-	text-align: center;
-}
+
+@media (min-width: 768px) {
 div.section p.footnote {
 	font-size: 12px;
+}
 }
 div.section img.biopic {
 	background-color: #fff;
 	border: 2px solid #ccc;
 	padding: 2px;
-	float: left;
-	width: 158px;
-	height: 180px;
-	margin: 0px 0px 10px 40px;
+  margin-top: 0; margin-bottom: 6px;
+  width: 158px;
+  height: 180px;
+  margin-right: 12px; margin-left: 35px;
 }
+
 div.section a.screencast {
-	background-color: transparent !important;
-	float: left;
-	clear: left;
-	margin: 0px 0px 25px 25px;
+  margin: 0;
 }
 div.section a.screencast img {
-	display: block;
 	background-color: #fff;
 	border: 2px solid #ccc;
 	padding: 2px;
+  width: 198px;
+  height: 158px;
+  margin-right: 12px; margin-left: 35px;
 }
 div.section code {
 	font-family: Courier New, Courier, mono;
@@ -148,9 +139,6 @@ div.section code {
 	font-size: 28px;
 	font-weight: normal;
 	line-height: 120%;
-	margin: 0px auto;
-	text-align: center;
-	width: 700px;
 }
 #sponsored_by {
 	margin: 17px 0px !important;
@@ -162,26 +150,9 @@ div.section code {
 	vertical-align: -7px;
 }
 
-#used_by ul {
-	list-style: none;
-	margin: 0px 0px 0px 280px;
-	padding: 0px;
-	overflow: hidden;
-}
-#used_by ul li {
-	float: left;
-	margin: 0px 0px 20px 0px;
-	width: 209px;
-}
-#used_by ul li img {
-	display: block;
-	margin: 0px 0px 5px 0px;
-}
-#used_by ul li p {
+#used_by p {
 	font-size: 10px;
 	font-family: inherit;
-	margin: 0px;
-	width: auto;
 }
 
 /* Quotes */
@@ -226,11 +197,16 @@ footer a:focus, footer a:hover                      {text-decoration: none}
 footer                                              {text-align: center}
 #announce                                           {font-size: 11px; line-height: 13px}
 #slivers p                                          {font-size: 10px}
-h1                                                  {font-size: 31px; line-height: 30px; font-weight: 700}
-header h2                                           {font-size: 18px; line-height: 24px; font-weight: 400}
-@media (min-width: 768px) {
-  h1                                                {font-size: 38px}
-  header h2                                         {font-size: 21px}
+h1                                                  {font-size: 38px; line-height: 30px; font-weight: 700}
+header h2                                           {font-size: 21px; line-height: 24px; font-weight: 400}
+@media (max-width: 768px) {
+  h1                                                {font-size: 31px}
+  header h2                                         {font-size: 18px}
+}
+
+.col-sm-4                                           {text-align: right}
+@media (max-width: 768px) {
+  .col-sm-4, h3                                         {text-align: center}
 }
 
 /* COLOR AND BACKGROUND */
