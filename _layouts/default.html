@@ -3,7 +3,7 @@
   <head>
     <title>Ruby on Rails{% if page.title %}: {{ page.title }}{% endif %}</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=800">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="/styles.css" type="text/css" media="screen" rel="stylesheet">
@@ -15,19 +15,17 @@
   </head>
   <body>
 {% include navigation.html %}
-    <div role="main"><section>
-      <div id="article"><article>
+      <article>
         <header class="container text-center">
           <h1>{{ page.header }}</h1>
-          <h2>
+          <h4>
             {{ page.subheader_1 }}<br class="hidden-xs" />
             {{ page.subheader_2 }}<br class="hidden-xs" />
             {{ page.subheader_3 }}
-          </h2>
+          </h4>
         </header>
         {{ content }}
-      </article></div>
-    </section></div>
+      </article>
 {% include footer.html %}
   </body>
 </html>

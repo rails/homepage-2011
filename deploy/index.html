@@ -6,60 +6,60 @@ subheader_2: "Thanks to the rise of Passenger aka mod_rails,"
 subheader_3: "launching is now almost as easy as developing."
 ---
     <div class="container">
-      <div class="section row">
+      <div class="row">
       <div class="col-sm-4">
         <h2>Passenger<br class="hidden-xs" /> aka mod_rails</h2>
         </div>
         <div class="col-sm-8">
         <p>
-          <img src="/images/pages/deploy/passenger.png" width="197" height="68" class="align-right" alt="Passenger">
+          <img src="/images/pages/deploy/passenger.png" width="197" height="68" class="pull-right" alt="Passenger">
           The easiest deployment setup for Rails is <a href="http://www.modrails.com/" title="Phusion Passenger website">Phusion Passenger</a> aka mod_rails. It’s a module for <a href="http://nginx.org" title="nginx news">nginx</a> and <a href="http://httpd.apache.org/" title="Apache HTTP Server Project">Apache</a> that automatically manages the back end. Just setup, launch, and enjoy.
         </p>
         </div>
       </div>
 
-      <div class="section row">
+      <div class="row">
         <div class="col-sm-4">
         <h2>Proxy setups</h2>
         </div>
         <div class="col-sm-8">
         <p>
-          <img src="/images/pages/deploy/mongrel.jpg" width="182" height="82" class="align-right" alt="Mongrel">
+          <img src="/images/pages/deploy/mongrel.jpg" width="182" height="82" class="pull-right" alt="Mongrel">
           If you need more fine-grained control over your deployment setup, the common option is to use a front-end server like nginx and Apache combined with a proxy relay like <a href="http://haproxy.1wt.eu" title="HAproxy: The Reliable, High Performance TCP/HTTP Load Balancer">HAProxy</a> to cluster of <a href="http://unicorn.bogomips.org/" title="Unicorn: Rack HTTP server for fast clients and Unix">Unicorns</a>. That’s how Basecamp and a lot of other high-end deployments run.
         </p>
         </div>
       </div>
 
-      <div class="section row">
+      <div class="row">
         <div class="col-sm-4">
         <h2>JRuby on Rails</h2>
         </div>
         <div class="col-sm-8">
         <p>
-          <img src="/images/pages/deploy/duke.jpg" width="100" height="80" class="align-right" alt="Duke">
+          <img src="/images/pages/deploy/duke.jpg" width="100" height="80" class="pull-right" alt="Duke">
           <a href="http://jruby.codehaus.org/" title="The Ruby Programming Language on the JVM">JRuby</a> brings Rails to the Java Virtual Machine. This means that you can deploy Rails applications on app servers like <a href="https://glassfish.dev.java.net/" title="Java EE 7 Application server">Glassfish</a> or <a href="http://jetty-rails.rubyforge.org/" title=" Jetty Rails: Java Web server">Jetty</a>. You can use <a href="http://caldersphere.rubyforge.org/warbler/" title="Warbler gem">Warbler</a> to package your Rails application as a standard WAR. Great for slipping into the enterprise.
         </p>
         </div>
       </div>
 
-      <div class="section row">
+      <div class="row">
         <div class="col-sm-4">
         <h2>Automate with<br class="hidden-xs" /> Capistrano</h2>
         </div>
         <div class="col-sm-8">
         <p>
-          <img src="/images/pages/deploy/capistrano.jpg" width="190" height="72" class="align-right" alt="capistrano">
+          <img src="/images/pages/deploy/capistrano.jpg" width="190" height="72" class="pull-right" alt="capistrano">
           <a href="http://www.capistranorb.com/" title="A remote server automation and deployment tool">Capistrano</a> brings deployment automation to Rails whether you’re working with a single server or on a cluster of dozens. It was extracted from the Basecamp tool chain (like Rails) by <a href="/core/alumni" title="Retired members of the core team">core alumni</a> Jamis Buck.
         </p>
         </div>
       </div>
 
-      <div class="section row">
+      <div class="row small">
         <div class="col-sm-4">
-        <h2 class="small">Hosting</h2>
+        <h2>Hosting</h2>
         </div>
         <div class="col-sm-8">
-        <p class="small">
+        <p>
           While Rails hosting is now common place, there’s a handful of dedicated Rails hosting companies that have been around for a long time and supporting the community: <a href="http://www.heroku.com/" title="Heroku website">Heroku</a>, <a href="http://railsmachine.com/" title="Rails Machine website">Rails Machine</a>, <a href="http://www.brightbox.co.uk/" title=" Btightbox website">Brightbox</a>, and <a href="http://www.engineyard.com/" title="Engine Yard Website">Engine Yard</a>. If you’re just looking for a VPS, we recommend <a href="http://www.rackspace.com" title="Rackspace website">Rackspace</a> (who gracefully donated slices for us to run Rails infrastructure on) or <a href="http://www.linode.com/" title="Linode website">Linode</a>.
         </p>
         </div>

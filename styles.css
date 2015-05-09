@@ -1,267 +1,119 @@
-/* Site */
-body {
-	background: #fff url(images/topbluefade.gif) repeat-x center top;
-	color: #333;
-	font-family: Verdana, Lucida Grande, Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	line-height: 18px;
-	margin: 0px;
-	padding: 0px;
-}
-sup {
-  line-height: 0;
-}
-a img {
-	border: none;
-}
-a.nohover {
-	background-color: transparent !important;
-}
-a.align-right {
-	float: right;
-	margin: 0px 0px 0px 10px;
-}
-a.align-right img {
-	display: block;
-}
-a.align-center {
-	display: inline-block;
-	margin: 0px 5px;
-}
-a.align-center img {
-	display: block;
-}
-ul, ol {
-  margin-left: 250px;
-}
-img.bordered {
-	background-color: #fff;
-	border: 1px solid #CCC;
-	padding: 1px;
-}
-img.align-right {
-	float: right;
-	margin: 0px 0px 0px 10px;
-}
-span.highlight {
-	background-color: #ffc;
-}
-div.section h2 {
-	font-family: Georgia;
-	font-size: 28px;
-
-	font-weight: normal;
-	line-height: 120%;
-  margin: 0 10px 20px 0;
-}
-@media (min-width:768px) {
-  section h2.small { font-size: 20px; }
-}
-@media (max-width:768px) {
-  section h2 { text-align: center; }
-}
-div.section h3 {
-	color: #900;
-	font-family: Georgia;
-	font-size: 18px;
-  margin: 0 10px 0px 10px;
-	line-height: 140%;
-}
-div.section ul, div.section ol {
-  margin: 0 10px 14px 10px;
-}
-div.section p {
-  font-family: Georgia;
-  font-size: 18px;
-  line-height: 140%;
-  margin: 0 10px 25px 10px;
-}
-@media (min-width: 768px) {
-div.section p.small {
-	font-size: 14px;
-}
-}
-div.section pre {
-  margin: 0 10px 25px 10px;
-}
-@media (min-width: 768px) {
-  div.section pre { margin-left: 35px;}
-}
-
-@media (min-width: 768px) {
-div.section p.footnote {
-	font-size: 12px;
-}
-}
-div.section img.biopic {
-	background-color: #fff;
-	border: 2px solid #ccc;
-	padding: 2px;
-  margin-top: 0; margin-bottom: 6px;
-  width: 158px;
-  height: 180px;
-  margin-right: 12px; margin-left: 35px;
-}
-
-div.section a.screencast {
-  margin: 0;
-}
-div.section a.screencast img {
-	background-color: #fff;
-	border: 2px solid #ccc;
-	padding: 2px;
-  width: 198px;
-  height: 158px;
-  margin-right: 12px; margin-left: 35px;
-}
-div.section code {
-	font-family: Courier New, Courier, mono;
-	font-size: 16px;
-	font-weight: bold;
-}
-#article {
-	padding: 0px 0px 20px 0px;
-}
-#article p a,
-#article ol a,
-#article ul a {
-	color: #369;
-}
-#article p a:hover,
-#article ol a:hover,
-#article ul a:hover {
-	background-color: #f4dda6;
-	text-decoration: none;
-}
-#article p.missing {
-	color: #000;
-	font-family: Georgia;
-	font-size: 28px;
-	font-weight: normal;
-	line-height: 120%;
-}
-#sponsored_by {
-	margin: 17px 0px !important;
-}
-#sponsored_by a:hover {
-	background-color: transparent !important;
-}
-#sponsored_by a img {
-	vertical-align: -7px;
-}
-
-#used_by p {
-	font-size: 10px;
-	font-family: inherit;
-}
-
-/* Quotes */
-blockquote {
-  font-family: Georgia;
-  font-size: 18px;
-  text-align: center;
-  margin: 0px auto 25px;
-  line-height: 140%;
-}
-
-blockquote p {
-	margin: 0px;
-}
-
-cite {
-  font-size: 14px;
-	color: #a69e8a;
-}
-
-/* The following rules override values set by Bootstrap CSS, ensuring that
-   the site looks the same whether or not Bootstrap CSS is loaded. */
-
-a                                                   {text-decoration: underline}
-code                                                {background-color: transparent; color: #000; padding-left: 0; padding-right: 0}
-pre                                                 {background-color: transparent; border: 0; padding: 0}
-h3                                                  {font-weight: bold}
-img                                                 {vertical-align: baseline}
-ul, ol                                              {margin-bottom: 14px}
-blockquote                                          {border-left: 0; padding: 0}
-
-/* TYPOGRAPHY */
-header                                              {font-family: "expressway", sans-serif; font-style: normal}
-#slivers h2, #slideshow                             {font-family: Georgia}
-#slivers h2                                         {font-size: 22px; line-height: 24px; font-weight: normal}
-.navbar-nav, footer                                 {font-size: 11px}
-.navbar-nav a                                       {font-weight: bold}
-footer a:focus, footer a:hover                      {text-decoration: none}
-#slideshow blockquote                               {font-size: 16px}
-#slideshow p.more                                   {font-size: 14px; font-style: italic}
-
-footer                                              {text-align: center}
-#announce                                           {font-size: 11px; line-height: 13px}
-#slivers p                                          {font-size: 10px}
-h1                                                  {font-size: 38px; line-height: 30px; font-weight: 700}
-header h2                                           {font-size: 21px; line-height: 24px; font-weight: 400}
-@media (max-width: 768px) {
-  h1                                                {font-size: 31px}
-  header h2                                         {font-size: 18px}
-}
-
+ /* TYPOGRAPHY */
+body                                                {font-family: Georgia, serif}
+header                                              {font-family: "expressway", sans-serif}
+code                                                {font-family: Courier New, Courier, mono}
+#announce, .smaller p, footer, ul, ol               {font-family: Verdana, Lucida Grande, Arial, Helvetica, sans-serif}
+h1                                                  {font-size: 38px}
+h2                                                  {font-size: 28px}
+h3                                                  {font-size: 22px}
+h4                                                  {font-size: 21px}
+.small h2                                           {font-size: 20px}
+h5, p, blockquote                                   {font-size: 18px}
+code, pre code, .small blockquote                   {font-size: 16px}
+.small p, cite                                      {font-size: 14px}
+.footnote                                           {font-size: 12px}
+nav, footer p, #announce                            {font-size: 11px}
+.smaller p                                          {font-size: 10px}
+@media (max-width: 767px) {h1                       {font-size: 31px}}
+@media (max-width: 767px) {h4                       {font-size: 18px}}
+h1, h5, code, nav                                   {font-weight: bold}
+h2, h3                                              {font-weight: normal}
+h1                                                  {line-height: 30px}
+h4, h3                                              {line-height: 24px}
+body, footer p                                      {line-height: 18px}
+h5, p, blockquote                                   {line-height: 140%}
+h2                                                  {line-height: 120%}
 .col-sm-4                                           {text-align: right}
-@media (max-width: 768px) {
-  .col-sm-4, h3                                         {text-align: center}
-}
+footer, blockquote, #menu                           {text-align: center}
+@media (max-width:767px) {h2, h5, .col-sm-4         {text-align: center}}
+a                                                   {text-decoration: underline}
+a:focus, a:hover                                    {text-decoration: none}
 
-/* COLOR AND BACKGROUND */
+/* BACKGROUNDS */
+body                                                {background-image: url(images/topbluefade.gif); background-repeat: repeat-x}
+.slivers                                            {background-image: url(images/herobackground.gif)}
+@media (min-width: 768px) {header.container         {background-image: url(images/rails.png); background-repeat: no-repeat; background-position: 22px 0px}}
+
+/* COLORS */
+a                                                   {color: #369}
+a:hover, a:focus                                    {background-color: #f4dda6}
+mark                                                {background-color: #ffc}
 footer                                              {color: #666}
-header h2                                           {color: #999}
-p#announce                                          {color: #fff; background-color: #981a21}
-p#announce a                                        {color: #fff}
-#slivers h2                                         {color: #0e3062}
-#slideshow cite, #slideshow p.more a                {color: #464242}
-p#announce a:hover, p#announce a:focus,
-#slivers p a:hover, #slivers p a:focus,
-#slideshow p a:hover, #slideshow p a:focus          {color: #fff; background-color: #000}
-#slivers                                            {border-top-color: #f6e69f; border-top-style: solid; border-bottom-color: #f6e69f; border-bottom-style: solid; background: url(images/herobackground.gif) left top}
-.navbar-default                                     {background-color: transparent; border-color: transparent}
-.navbar-default .navbar-nav>li>a, footer a, h1,
-#slivers p a                                        {color: #000}
-.navbar-default .navbar-nav>li>a:focus,
-footer a:focus, footer a:hover,
-.navbar-default .navbar-nav>li>a:hover              {color: #fff; background-color: #333}
-.navbar-collapse.in                                 {border-bottom-color: #e7e7e7; border-bottom-style: solid}
-.collapse:not(.in) .navbar-nav li:not(:last-child)  {border-right-color: #000; border-right-style: solid}
+#menu a, code, pre, footer a                        {color: #000}
+#menu a:focus, #menu a:hover                        {color: #fff; background-color: #333}
+.navbar-default, code, pre                          {background-color: transparent}
+.navbar                                             {border-color: transparent}
+h4                                                  {color: #999}
+.framed img, .col-sm-4 img                          {background-color: #fff; border-color: #ccc}
+h5                                                  {color: #900}
+cite                                                {color: #a69e8a}
+#announce                                           {background-color: #981a21}
+#announce a, .inverted a:hover, .inverted a:focus   {color: #fff}
+.slivers                                            {border-top-color: #f6e69f; border-bottom-color: #f6e69f}
+.slivers a                                          {color: #000}
+.inverted a:hover, .inverted a:focus                {background-color: #000}
+#slideshow cite, #slideshow a                       {color: #464242}
 
-/* VERTICAL LAYOUT */
-.navbar-nav>li>a                                    {padding-top: 0; padding-bottom: 0}
-.navbar-nav li                                      {margin-top: 10px; margin-bottom: 15px}
-.navbar-collapse.in                                 {border-bottom-width: 1px}
-footer                                              {padding-bottom: 44px}
-footer p                                            {margin-top: 12px}
-footer p, h1                                        {margin-bottom: 12px}
-.navbar-brand                                       {padding-top: 8px}
+/* BORDERS */
+#menu.in                                            {border-bottom-style: solid}
+#menu:not(.in) li:not(:last-child)                  {border-right-style: solid}
+.framed img, .col-sm-4 img                          {border-style: solid}
+.slivers                                            {border-top-style: solid; border-bottom-style: solid}
+
+/* LAYOUTS */
+cite                                                {display: block}
+@media (min-width: 768px) {.navbar .navbar-nav      {display: inline-block; float: none}}
+@media (min-width: 768px) {.navbar-brand            {display: none}}
+
+/* WIDTHS */
+img.screencast                                      {width: 198px}
+img.biopic                                          {width: 158px; margin-right: 12px}
+@media (min-width:992px)  {.container               {width: 750px}}
+@media (min-width:992px)  {.slivers .container      {width: 792px}}
+#menu:not(.in) li                                   {padding-left: 5px; padding-right: 5px}
+#menu:not(.in) li:not(:last-child)                  {border-right-width: 1px}
+#menu a , mark, code, pre                           {padding-left: 0; padding-right: 0}
+@media (min-width: 768px) {header.container         {padding-left: 115px}}
+h2, .col-sm-8 p, h5, ul, ol                         {margin-right: 10px}
+pre                                                 {border-left: 0; border-right: 0; margin-left: 35px}
+@media (max-width: 767px) {pre                      {margin-left: 10px}}
+.framed img                                         {padding-left: 1px; padding-right: 1px; border-left-width: 1px; border-right-width: 1px}
+.col-sm-4 img                                       {padding-left: 2px; padding-right: 2px; border-left-width: 2px; border-right-width: 2px}
+.col-sm-4 a                                         {margin-right: 2px}
+.col-sm-8 .framed, .col-sm-8 p, h5, ul, ol          {margin-left: 10px}
+.col-sm-6 .framed                                   {margin-left: 0px}
+.col-sm-6 .framed img                               {margin-bottom: 4px}
+blockquote                                          {border-left-width: 0}
+
+/* HEIGHTS */
+img.screencast                                      {height: 158px}
+img.biopic                                          {height: 180px; margin-bottom: 10px}
 .navbar-brand img                                   {height: 34px}
+#menu li                                            {margin-top: 10px; margin-bottom: 13px}
+#menu a, mark, pre, blockquote                      {padding-top: 0; padding-bottom: 0}
+.navbar-brand                                       {padding-top: 8px}
+#menu.in                                            {border-bottom-width: 1px}
 header                                              {margin-top: 27px; margin-bottom: 32px}
-h1, header h2                                       {margin-top: 0}
-header h2, #announce                                {margin-bottom: 0}
-#announce                                           {padding-top: 5px; padding-bottom: 5px}
-#slivers p                                          {margin-top: 2px; margin-bottom: 25px}
-#slivers h2                                         {margin-top: 10px}
-#slivers                                            {border-top-width: 2px; border-bottom-width: 2px}
-#slideshow                                          {margin-top: 16px; margin-bottom: 22px}
+h1, h2, h5                                          {margin-top: 0}
+h2, article                                         {margin-bottom: 20px}
+.col-sm-8 p                                         {margin-bottom: 25px}
+h1                                                  {margin-bottom: 12px}
+h4, h5, #announce                                   {margin-bottom: 0px}
+pre                                                 {border-top: 0; border-bottom: 0}
+pre, blockquote                                     {margin-bottom: 25px}
+footer                                              {padding-bottom: 44px}
+footer p                                            {margin-bottom: 12px; margin-top: 12px}
+#sponsored_by                                       {margin-bottom: 17px; margin-top: 17px}
+#sponsored_by img                                   {vertical-align: -7px}
+.framed img                                         {padding-top: 1px; padding-bottom: 1px; border-top-width: 1px; border-bottom-width: 1px}
+.col-sm-4 img                                       {padding-top: 2px; padding-bottom: 2px}
+.col-sm-4 img, .slivers                             {border-top-width: 2px; border-bottom-width: 2px}
+ul, ol                                              {margin-bottom: 14px}
+cite                                                {margin-top: 2px}
+#announce                                           {padding-top: 4px; padding-bottom: 4px}
+h3                                                  {margin-top: 10px}
+.slivers p                                          {margin-top: 8px; margin-bottom: 27px}
+.slivers                                            {margin-bottom: 16px}
 #slideshow blockquote                               {height: 87px}
-@media (max-width: 768px) {
-  #slideshow blockquote                             {height: 200px}
-}
-
-/* HORIZONTAL LAYOUT */
-.navbar-nav>li>a                                    {padding-left: 0; padding-right: 0}
-.collapse:not(.in) .navbar-nav li                   {padding-left: 5px; padding-right: 5px}
-.collapse:not(.in) .navbar-nav li:not(:last-child)  {border-right-width: 1px}
-@media (min-width: 768px) { /* center the navbar, see stackoverflow.com/a/18778769 */
-  .navbar .navbar-nav                               {display: inline-block; float: none; vertical-align: top}
-  .navbar .navbar-collapse                          {text-align: center}
-  .navbar-brand                                     {display: none}
-  header.container                                  {background: url(images/rails.png) no-repeat 22px top; padding-left: 115px;}
-}
-@media (min-width:992px)  { /* Reduce width on big screens */
-  .container                                        {width: 750px}
-  #slivers .container                               {width: 792px}
-}
+@media (max-width: 767px) {#slideshow blockquote    {height: 200px}}
+#slideshow                                          {margin-bottom: 21px}
