@@ -6,9 +6,16 @@ subheader_3: "write beautiful code by favoring convention over configuration."
 ---
     <div class="container-fluid text-center">
       <div class="row">
-      <p id="announce" class="inverted">
-        <a href="http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/" title="Ruby on Rails Blog">Rails 4.2.0 has been released!</a>
-      </p>
+      <p id="announce" class="inverted"></p>
+      <script type="text/javascript">
+        function latestBlogPost(data) {
+          $('#announce').append($('<a/>', { href: "http://weblog.rubyonrails.org" + data.url, title: "Ruby on Rails Blog" }).text(data.title));
+        }
+
+        $(function() {
+          $.getScript("http://weblog.rubyonrails.org/latest.js");
+        });
+      </script>
       </div>
       <div class="row smaller inverted slivers">
         <div class="container"><div class="row">
@@ -20,7 +27,19 @@ subheader_3: "write beautiful code by favoring convention over configuration."
           <div class="col-sm-3 col-xs-6">
             <h3>Get Started</h3>
             <a href="/download/" title="Download the Ruby on Rails last version"><img src="/images/pages/overview/download42.png" width="144" height="153" alt="Graphic showing a down arrow with the number of the latest stable version of Rails"></a>
-            <p><a href="/download/" title="Download the Ruby on Rails last version">4.2.5 released Nov 12, 2015</a></p>
+            <p><a id="download" href="/download/" title="Download the Ruby on Rails last version">Download the latest release</a></p>
+            <script type="text/javascript">
+              function currentRailsVersions(list) {
+                var d = new Date(list[0].date.replace(/ [+-][0-9]+$/, ''));
+                $('#download').text(list[0].version + ' released ' +
+                    'Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec'.split(' ')[d.getMonth()] +
+                    ' ' + d.getDate() + ', ' + d.getFullYear());
+              }
+
+              $(function() {
+                $.getScript("http://api.rubyonrails.org/versions.js");
+              });
+            </script>
           </div>
           <div class="col-sm-3 col-xs-6">
             <h3>Get Better</h3>
